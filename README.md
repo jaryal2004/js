@@ -1,2 +1,3 @@
 # js
-learning js
+code repo for learning js
+
