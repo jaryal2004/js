@@ -37,3 +37,47 @@ let stringNumber= string(someNumber)
 console.log(stringNumber);
 
 //33
+
+
+// ********************Operations*********************
+
+let value=3
+let negValue= -value
+console.log(negValue);
+//-3
+
+//+,-,*,**,/,%
+
+let str1="hello"
+let str2=" hitesh"
+let str3=str1+str2
+console.log(str3);
+//hello hitesh
+
+console.log("1"+2);
+//12
+//1+"2"=>12
+//"1"+2+2=>122
+//1+2+"2"=>32
+//if string first then all are converted into string
+
+
+console.log(true);
+// true
+console.log(+true);
+// 1
+//true+ => error
+// +"" =>1 0
+
+
+let num1, num2, num3
+num1=num2=num3=2+2
+
+let gameCounter=100;
+gameCounter++;
+console.log(gameCounter);
+//101
+// ++gameCounter
+//101
+
+
