@@ -31,3 +31,31 @@ const myFunction=function(){
 }
 
 console.log(typeof outsideTemp);
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+//stack (Primitive), Heap (Non-primitive)
+
+let myYoutube="payaljaryal"
+let anothername=myYoutube
+anothername="chaiaurcode"
+console.log(myYoutube);
+console.log(anothername);
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne 
+
+userTwo.email="payal24@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
