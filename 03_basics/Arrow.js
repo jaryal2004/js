@@ -39,5 +39,9 @@ console.log(this);
     //explicit({}use this)
     //implicit return(no use of{})
     //const addTWo=(num1,num2) => num1+num2;
-    const addTWo=(num1,num2) => (num1+num2);
+    // const addTWo=(num1,num2) => (num1+num2);
+
+//  const addTwo=(num1,num2)=>({username:"hiesh"})
+ //this will not execute until you use{}
+ 
     console.log(addTWo(3,4))
