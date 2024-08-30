@@ -25,3 +25,9 @@ else{
 
 // }
 
+//nullish coalescing operator(??): null undefined
+//operator used to designed if null value is given to the variable than the other value will be assigned to the variable as null is not in use
+let val1;
+// val1=5??10
+val1=null??10
+console.log(val1);
